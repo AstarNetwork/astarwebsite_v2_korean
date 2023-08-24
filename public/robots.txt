@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kr.astar.network/sitemap.xml
