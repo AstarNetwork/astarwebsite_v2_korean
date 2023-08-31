@@ -2,16 +2,25 @@
   <NuxtLayout name="default">
     <template #space>
       <SubPageHeader>
-        <h1
-          class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight drop-shadow"
-        >
-          Korean LP
+        <h1 class="max-w-5xl -my-6">
+          <img
+            class="w-full"
+            src="/images/page-header.webp"
+            alt="Astar Network x Artpia"
+            data-not-lazy
+          />
+          <span class="sr-only">Astar Network x Artpia</span>
         </h1>
-        <p class="sm:text-xl lg:text-2xl">description</p>
       </SubPageHeader>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center relative z-10">
-        content
+        <div class="max-w-3xl mx-auto bg-gray-600 text-white py-60">
+          video embed
+        </div>
+        <Outline />
+        <Artists />
+        <Marketplaces />
+        <Socials />
       </div>
     </template>
     <template #earth>
