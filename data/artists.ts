@@ -13,7 +13,12 @@ export const artists = [
       twitter: "",
     },
     works: [
-      { href: "", image: "", text: "Participating NFTs, WickedLeopardClub" },
+      {
+        href: "https://opensea.io/collection/wicked-leopard-club",
+        image:
+          "https://open-graph.opensea.io/v1/collections/wicked-leopard-club",
+        text: "Participating NFTs, WickedLeopardClub",
+      },
     ],
   },
   {
@@ -54,7 +59,8 @@ export const artists = [
     works: [
       {
         href: "https://wenft.space/collection/debulls-moon-octopus-333",
-        image: "https://image.wenft.space/files/73f3af90718b058f7941190067ee9a3174b167ca223c394f7ad3eeb1853cd9be.jpg",
+        image:
+          "https://image.wenft.space/files/73f3af90718b058f7941190067ee9a3174b167ca223c394f7ad3eeb1853cd9be.jpg",
         text: "DeBulls NFT Project",
       },
     ],
