@@ -1,5 +1,5 @@
 export const meta = {
   siteName: "Astar Network",
-  url: "https://kr.astar.network",
-  image: "https://kr.astar.network/images/ogp/",
+  url: "https://ko.astar.network",
+  image: "https://ko.astar.network/images/ogp/",
 };

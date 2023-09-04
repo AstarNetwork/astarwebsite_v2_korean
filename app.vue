@@ -1,23 +1,19 @@
 <template>
-  <component is="noscript">
-    <iframe
-      :src="`https://www.googletagmanager.com/ns.html?id=GTM-53GS73F`"
-      height="0"
-      width="0"
-      style="display: none; visibility: hidden"
-    >
-    </iframe>
-  </component>
-
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
 </template>
 
 <script setup lang="ts">
-const { locale } = useI18n();
+import { meta } from "@/data/meta";
 useHead(() => ({
-  htmlAttrs: { lang: locale.value },
+  htmlAttrs: { lang: "ko" },
+  link: [
+    {
+      rel: "canonical",
+      href: meta.url,
+    },
+  ],
 }));
 
 useSchemaOrg([

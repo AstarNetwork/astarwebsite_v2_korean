@@ -7,27 +7,27 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
   ],
   schemaOrg: {
-    host: "https://kr.astar.network",
+    host: "https://ko.astar.network",
   },
   i18n: {
-    baseUrl: "https://kr.astar.network",
+    baseUrl: "https://ko.astar.network",
     locales: [
       {
-        code: "kr",
+        code: "ko",
         name: "Korean",
         iso: "ko-KR",
         files: [
-          "kr.json",
+          "ko.json",
         ],
       },
     ],
     langDir: "lang",
-    defaultLocale: "kr",
+    defaultLocale: "ko",
     strategy: "prefix_except_default",
   },
   plugins: [{ src: "~/plugins/aos" }],
   sitemap: {
-    siteUrl: "https://kr.astar.network",
+    siteUrl: "https://ko.astar.network",
     discoverImages: false,
   },
 });

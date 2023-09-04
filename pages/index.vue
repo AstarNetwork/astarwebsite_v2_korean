@@ -37,7 +37,7 @@ const seoTitle = `Astar Network x ARTPIA | ${meta.siteName} - ${t(
   "meta.tagline"
 )}`;
 const seoDescription =
-  "Astar Network recently partnered with ARTPIA and WEPLE to support the World’s-first Digital Art TV show that premiered in South Korea. Astar supported and followed these content creator’s journey’s and aimed to discover and nurture emerging artists from South Korea who will become the future leaders of next-generation art & NFTs.";
+  "Astar Network recently partnered with ARTPIA and WEPLE to support the World’s-first Digital Art TV show that premiered in South Korea.";
 const seoUrl = `${meta.url}${route.fullPath}`;
 const seoImage = `${meta.image}common.png`;
 
