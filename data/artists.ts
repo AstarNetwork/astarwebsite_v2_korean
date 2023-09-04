@@ -54,7 +54,7 @@ export const artists = [
     works: [
       {
         href: "https://wenft.space/collection/debulls-moon-octopus-333",
-        image: "",
+        image: "https://image.wenft.space/files/73f3af90718b058f7941190067ee9a3174b167ca223c394f7ad3eeb1853cd9be.jpg",
         text: "DeBulls NFT Project",
       },
     ],
@@ -76,7 +76,7 @@ export const artists = [
     works: [
       {
         href: "https://opensea.io/collection/topcy-choi-trippy",
-        image: "",
+        image: "https://open-graph.opensea.io/v1/collections/topcy-choi-trippy",
         text: "Joseon Punk #1Lester guitar with 4 generated dancheongs",
       },
     ],
