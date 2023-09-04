@@ -34,7 +34,8 @@
           <div class="hidden lg:flex lg:items-center">
             <nav class="flex items-center space-x-4 xl:space-x-8">
               <NuxtLink
-                :to="localePath('/astar2')"
+                to="https://astar.network/astar2"
+                target="_blank"
                 class="text-space-teal group hover:text-space-teal-lighter font-medium transition text-tiny xl:text-base flex items-center"
               >
                 Astar 2.0
@@ -151,7 +152,9 @@ const menus = [
     nav: [
       {
         label: "",
-        nav: [{ label: "Get Started", href: i18n + "/developers" }],
+        nav: [
+          { label: "Get Started", href: "https://astar.network/developers" },
+        ],
       },
       {
         label: "Developer Support",
@@ -172,7 +175,7 @@ const menus = [
           },
           {
             label: "Astar University",
-            href: i18n + "/developers/university",
+            href: "https://astar.network/developers/university",
           },
         ],
       },
@@ -239,13 +242,16 @@ const menus = [
       {
         label: "",
         nav: [
-          { label: "Community Hub", href: i18n + "/community" },
-          { label: "Ecosystem", href: i18n + "/community/ecosystem" },
+          { label: "Community Hub", href: "https://astar.network/community" },
+          {
+            label: "Ecosystem",
+            href: "https://astar.network/community/ecosystem",
+          },
         ],
       },
       {
         label: "What's on",
-        nav: [{ label: "Blog", href: i18n + "/blog" }],
+        nav: [{ label: "Blog", href: "https://astar.network/blog" }],
       },
       {
         label: "Getting Involved",
@@ -269,20 +275,18 @@ const menus = [
       {
         label: "",
         nav: [
-          { label: "2023 Starmap", href: i18n + "/starmap" },
-          { label: "Astar Japan Lab", href: i18n + "/japan" },
+          { label: "2023 Starmap", href: "https://astar.network/starmap" },
+          { label: "Astar Japan Lab", href: "https://astar.network/japan" },
           // {
           //   label: "Jobs",
           //   href: "https://wellfound.com/company/astar-network",
           // },
-          { label: "Contact Us", href: i18n + "/contact" },
+          { label: "Contact Us", href: "https://astar.network/contact" },
         ],
       },
     ],
   },
 ];
-
-const network = [];
 </script>
 
 <style lang="postcss" scoped></style>

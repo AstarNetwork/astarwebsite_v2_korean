@@ -8,7 +8,7 @@
         usage. Please let us know you agree to all of our cookies. You can find
         out more on our
         <NuxtLink
-          :to="localePath('https://astar.network/privacy-policy')"
+          to="https://astar.network/privacy-policy"
           target="_blank"
           class="text-space-blue hover:underline hover:text-space-blue-lighter transition whitespace-nowrap"
         >

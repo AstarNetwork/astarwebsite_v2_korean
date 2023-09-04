@@ -9,9 +9,6 @@
   body {
     @apply overflow-x-hidden;
   }
-  html {
-    @apply scroll-smooth;
-  }
   body {
     @apply leading-relaxed text-base;
   }

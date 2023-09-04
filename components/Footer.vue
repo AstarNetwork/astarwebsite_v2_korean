@@ -126,7 +126,7 @@ const nav = [
   {
     name: t("footer.learn"),
     nav: [
-      { name: t("footer.blog"), href: localePath("/blog") },
+      { name: t("footer.blog"), href: "https://astar.network/blog" },
       {
         name: t("footer.videos"),
         href: "https://www.youtube.com/c/AstarNetwork",
@@ -143,15 +143,15 @@ const nav = [
       },
       {
         name: t("footer.privacy_policy"),
-        href: localePath("/privacy-policy"),
+        href: "https://astar.network/privacy-policy",
       },
       {
         name: t("footer.terms_of_use"),
-        href: localePath("/term-of-use"),
+        href: "https://astar.network/term-of-use",
       },
       {
         name: t("footer.contact"),
-        href: localePath("/contact"),
+        href: "https://astar.network/contact",
       },
     ],
   },
