@@ -115,12 +115,15 @@
                     >
                       <img
                         v-if="work.image"
-                        class="w-full max-w-[360px]"
+                        class="w-full max-w-[360px] rounded-sm"
                         :src="work.image"
-                        :alt="work.text"
+                        :alt="work.title"
                       />
-                      <p class="mt-2" v-if="work.text">{{ work.text }}</p>
+                      <p class="mt-2" v-if="work.title">{{ work.title }}</p>
                     </NuxtLink>
+                    <p class="mt-2 text-tiny" v-if="work.description">
+                      {{ work.description }}
+                    </p>
                   </div>
                 </div>
               </div>

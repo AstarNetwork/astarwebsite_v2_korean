@@ -17,7 +17,7 @@ export const artists = [
         href: "https://opensea.io/collection/wicked-leopard-club",
         image:
           "https://open-graph.opensea.io/v1/collections/wicked-leopard-club",
-        text: "Participating NFTs, WickedLeopardClub",
+        title: "Participating NFTs, WickedLeopardClub",
       },
     ],
   },
@@ -37,9 +37,10 @@ export const artists = [
     },
     works: [
       {
-        href: "",
-        image: "",
-        text: "[Description] Lullaby is a project that I proposed to singer Jung In for his graduation project. We reinterpreted a painting by Jungin's oldest, Jo Eun, and created a music video that tells the story of a boy and girl's dream adventure. Parents are like the sun and moon to their children, giving them a bright and positive outlook on a dark and scary world. The scene in the music video where Jungin and Jo Jungchi appear as the sun and moon was intended to be humorous, as it was composited from real footage. From this scene on, the suspense disappears, and just as the children are no longer afraid of the monsters but enjoy them, I hope that the viewers of the music video will finish the video with a smile on their face.",
+        href: "https://www.youtube.com/watch?v=W9FcYPSAXE0",
+        image: "https://i.ytimg.com/vi/W9FcYPSAXE0/maxresdefault.jpg",
+        title: "[MV] Lullaby",
+        description:"Lullaby is a project that I proposed to singer Jung In for his graduation project. We reinterpreted a painting by Jungin's oldest, Jo Eun, and created a music video that tells the story of a boy and girl's dream adventure. Parents are like the sun and moon to their children, giving them a bright and positive outlook on a dark and scary world. The scene in the music video where Jungin and Jo Jungchi appear as the sun and moon was intended to be humorous, as it was composited from real footage. From this scene on, the suspense disappears, and just as the children are no longer afraid of the monsters but enjoy them, I hope that the viewers of the music video will finish the video with a smile on their face."
       },
     ],
   },
@@ -61,7 +62,7 @@ export const artists = [
         href: "https://wenft.space/collection/debulls-moon-octopus-333",
         image:
           "https://image.wenft.space/files/73f3af90718b058f7941190067ee9a3174b167ca223c394f7ad3eeb1853cd9be.jpg",
-        text: "DeBulls NFT Project",
+        title: "DeBulls NFT Project",
       },
     ],
   },
@@ -83,7 +84,7 @@ export const artists = [
       {
         href: "https://opensea.io/collection/topcy-choi-trippy",
         image: "https://open-graph.opensea.io/v1/collections/topcy-choi-trippy",
-        text: "Joseon Punk #1Lester guitar with 4 generated dancheongs",
+        title: "Joseon Punk #1Lester guitar with 4 generated dancheongs",
       },
     ],
   },
@@ -106,7 +107,7 @@ export const artists = [
         href: "https://opensea.io/collection/uslunghouse-comics",
         image:
           "https://open-graph.opensea.io/v1/collections/uslunghouse-comics",
-        text: "USLUNG HOUSE Comics collection - Collection | OpenSea",
+        title: "USLUNG HOUSE Comics collection - Collection | OpenSea",
       },
     ],
   },
@@ -128,7 +129,7 @@ export const artists = [
       {
         href: "",
         image: "",
-        text: "Posu, the lovable and affectionate bunny, is brimming with charm. Posu is small, adorable, and greatly adored by animal friends. The characteristic features of Posu are its cotton candy-like art style and childlike behavior.",
+        title: "Posu, the lovable and affectionate bunny, is brimming with charm. Posu is small, adorable, and greatly adored by animal friends. The characteristic features of Posu are its cotton candy-like art style and childlike behavior.",
       },
     ],
   },
@@ -165,7 +166,7 @@ export const artists = [
       {
         href: "",
         image: "",
-        text: "As an artist, this is my first venture into Artpia, and I currently do not have any representative works.",
+        title: "As an artist, this is my first venture into Artpia, and I currently do not have any representative works.",
       },
     ],
   },
@@ -186,12 +187,12 @@ export const artists = [
       {
         href: "https://opensea.io/collection/herrings",
         image: "https://open-graph.opensea.io/v1/collections/herrings",
-        text: "Herrings : Art Collection - Collection | OpenSea",
+        title: "Herrings : Art Collection - Collection | OpenSea",
       },
       {
         href: "https://opensea.io/collection/christmasseals",
         image: "https://open-graph.opensea.io/v1/collections/christmasseals",
-        text: "Rhythmical NFT Club : Christmas Seals - Collection",
+        title: "Rhythmical NFT Club : Christmas Seals - Collection",
       },
     ],
   },
