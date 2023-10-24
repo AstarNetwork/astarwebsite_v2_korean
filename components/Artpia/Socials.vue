@@ -1,5 +1,5 @@
 <template>
-  <div class="py-20">
+  <div class="py-10 sm:py-20">
     <h2 class="title text-center mb-12 sm:mb-16">
       <span>Stay Informed</span>
     </h2>

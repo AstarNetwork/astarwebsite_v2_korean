@@ -40,7 +40,8 @@ export const artists = [
         href: "https://www.youtube.com/watch?v=W9FcYPSAXE0",
         image: "https://i.ytimg.com/vi/W9FcYPSAXE0/maxresdefault.jpg",
         title: "[MV] Lullaby",
-        description:"Lullaby is a project that I proposed to singer Jung In for his graduation project. We reinterpreted a painting by Jungin's oldest, Jo Eun, and created a music video that tells the story of a boy and girl's dream adventure. Parents are like the sun and moon to their children, giving them a bright and positive outlook on a dark and scary world. The scene in the music video where Jungin and Jo Jungchi appear as the sun and moon was intended to be humorous, as it was composited from real footage. From this scene on, the suspense disappears, and just as the children are no longer afraid of the monsters but enjoy them, I hope that the viewers of the music video will finish the video with a smile on their face."
+        description:
+          "Lullaby is a project that I proposed to singer Jung In for his graduation project. We reinterpreted a painting by Jungin's oldest, Jo Eun, and created a music video that tells the story of a boy and girl's dream adventure. Parents are like the sun and moon to their children, giving them a bright and positive outlook on a dark and scary world. The scene in the music video where Jungin and Jo Jungchi appear as the sun and moon was intended to be humorous, as it was composited from real footage. From this scene on, the suspense disappears, and just as the children are no longer afraid of the monsters but enjoy them, I hope that the viewers of the music video will finish the video with a smile on their face.",
       },
     ],
   },
@@ -129,7 +130,8 @@ export const artists = [
       {
         href: "",
         image: "",
-        title: "Posu, the lovable and affectionate bunny, is brimming with charm. Posu is small, adorable, and greatly adored by animal friends. The characteristic features of Posu are its cotton candy-like art style and childlike behavior.",
+        title:
+          "Posu, the lovable and affectionate bunny, is brimming with charm. Posu is small, adorable, and greatly adored by animal friends. The characteristic features of Posu are its cotton candy-like art style and childlike behavior.",
       },
     ],
   },
@@ -166,7 +168,8 @@ export const artists = [
       {
         href: "",
         image: "",
-        title: "As an artist, this is my first venture into Artpia, and I currently do not have any representative works.",
+        title:
+          "As an artist, this is my first venture into Artpia, and I currently do not have any representative works.",
       },
     ],
   },

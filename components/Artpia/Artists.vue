@@ -1,9 +1,11 @@
 <template>
-  <div class="py-20">
+  <div class="py-10 sm:py-20">
     <h2 class="title text-center mb-12 sm:mb-16">
       <span>Content Creators</span>
     </h2>
-    <ul class="grid grid-cols-2 sm:grid-cols-4 gap-x-6 sm:gap-x-12 gap-y-12">
+    <ul
+      class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 sm:gap-x-12 gap-y-12"
+    >
       <li v-for="(artist, index) in artists">
         <div class="group cursor-pointer" @click="modalAction(index)">
           <img

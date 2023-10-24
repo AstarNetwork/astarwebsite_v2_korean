@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-3xl mx-auto py-20">
+  <div class="max-w-3xl mx-auto">
     <h2 class="text-center text-3xl sm:text-4xl font-bold mb-6">
       Big in Korea
     </h2>

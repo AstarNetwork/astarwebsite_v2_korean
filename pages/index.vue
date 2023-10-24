@@ -14,10 +14,13 @@
       </SubPageHeader>
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
-        <div class="max-w-3xl mx-auto bg-gray-600 text-white py-60 text-center">
-          video embed
-        </div>
         <ArtpiaOutline />
+        <div class="max-w-3xl mx-auto text-center py-10 sm:py-20">
+          <video controls class="aspect-video">
+            <source src="/videos/ooai_atsar.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
         <ArtpiaArtists />
         <ArtpiaMarketplaces />
         <ArtpiaSocials />
