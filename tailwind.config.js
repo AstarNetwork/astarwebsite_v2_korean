@@ -29,56 +29,50 @@ module.exports = {
     },
     extend: {
       aspectRatio: {
-        'blog': '191.04 / 100',
+        blog: "191.04 / 100",
       },
       colors: {
-        'space-gray':{
-          light:"#405FBA",
-          lighter:"#112769",
-          DEFAULT:"#071643",
-          dark:"#081029"
+        "space-gray": {
+          light: "#405FBA",
+          lighter: "#112769",
+          DEFAULT: "#071643",
+          dark: "#081029",
         },
-        'space-pink':{
-          light:"#FFADD9",
-          lighter:"#FB4AA8",
-          DEFAULT:"#E0338F",
+        "space-pink": {
+          light: "#FFADD9",
+          lighter: "#FB4AA8",
+          DEFAULT: "#E0338F",
         },
-        'space-purple':{
-          light:"#C9A5FF",
-          lighter:"#9256ED",
-          DEFAULT:"#703AC2",
+        "space-purple": {
+          light: "#C9A5FF",
+          lighter: "#9256ED",
+          DEFAULT: "#703AC2",
         },
-        'space-blue':{
-          light:"#A4BDFF",
-          lighter:"#3D73FF",
-          DEFAULT:"#215AEC",
+        "space-blue": {
+          light: "#A4BDFF",
+          lighter: "#3D73FF",
+          DEFAULT: "#215AEC",
         },
-        'space-sky':{
-          light:"#9ED8FF",
-          lighter:"#34ADFF",
-          DEFAULT:"#0099FF",
+        "space-sky": {
+          light: "#9ED8FF",
+          lighter: "#34ADFF",
+          DEFAULT: "#0099FF",
         },
-        'space-cyan':{
-          light:"#A7F5FF",
-          lighter:"#66EDFF",
-          DEFAULT:"#0AE2FF",
+        "space-cyan": {
+          light: "#A7F5FF",
+          lighter: "#66EDFF",
+          DEFAULT: "#0AE2FF",
         },
-        'space-teal':{
-          light:"#C0FFF4",
-          lighter:"#80FFE8",
-          DEFAULT:"#00FFD1",
-        }
+        "space-teal": {
+          light: "#C0FFF4",
+          lighter: "#80FFE8",
+          DEFAULT: "#00FFD1",
+        },
       },
       fontFamily: {
-        'sans': ['"Inter"', ...defaultTheme.fontFamily.sans],
-        'mono': ['"Roboto Mono"', ...defaultTheme.fontFamily.mono],
-        'jp': ['"Noto Sans JP"', ...defaultTheme.fontFamily.sans],
-        'roboto': ['"Roboto"', ...defaultTheme.fontFamily.sans],
+        sans: ["Inter", "Noto Sans KR", ...defaultTheme.fontFamily.sans],
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography')
-  ],
-}
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
+};

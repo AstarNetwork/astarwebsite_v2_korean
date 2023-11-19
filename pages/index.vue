@@ -40,7 +40,7 @@ const seoTitle = `Astar Network x ARTPIA | ${meta.siteName} - ${t(
   "meta.tagline"
 )}`;
 const seoDescription =
-  "Astar Network recently partnered with ARTPIA and WEPLE to support the World’s-first Digital Art TV show that premiered in South Korea.";
+  "아스타 네트워크는 한국에서 처음으로 방영된 세계 최초 디지털 아트 TV 쇼의 지원을 위하여 최근 아트피아(ARTPIA) 그리고 위플(WEPLE)과의 파트너십을 맺었습니다.";
 const seoUrl = `${meta.url}${route.fullPath}`;
 const seoImage = `${meta.image}common.png`;
 

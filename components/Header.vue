@@ -15,7 +15,7 @@
         <div
           class="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 sm:py-8 lg:px-8"
         >
-          <NuxtLink :to="localePath('/')" class="flex">
+          <NuxtLink to="https://astar.network" target="_blank" class="flex">
             <span class="sr-only">Astar Network</span>
             <img
               class="h-10 w-auto sm:h-14"
@@ -36,14 +36,9 @@
               <NuxtLink
                 to="https://astar.network/astar2"
                 target="_blank"
-                class="text-space-teal group hover:text-space-teal-lighter font-medium transition text-tiny xl:text-base flex items-center"
+                class="font-medium transition text-base xl:text-lg text-white hover:text-space-cyan-light pr-2"
               >
                 Astar 2.0
-                <span
-                  class="bg-space-teal group-hover:bg-space-teal-lighter text-space-gray-dark text-[0.7rem] block px-2 rounded-sm ml-1"
-                >
-                  New
-                </span>
               </NuxtLink>
 
               <template v-for="category in menus">
@@ -122,6 +117,8 @@
               </Button>
             </div>
           </div>
+
+          <div class="hidden lg:block"><LangSwitcher /></div>
         </div>
       </div>
     </div>
@@ -129,10 +126,6 @@
 </template>
 
 <script setup>
-const localePath = useLocalePath();
-const { locale } = useI18n();
-const i18n = locale.value === "ja" ? "/ja" : "";
-
 import {
   Popover,
   PopoverButton,
@@ -153,7 +146,14 @@ const menus = [
       {
         label: "",
         nav: [
-          { label: "Get Started", href: "https://astar.network/developers" },
+          {
+            label: "Get Started",
+            href: "https://astar.network/developers",
+          },
+          {
+            label: "Astar Tech Stack",
+            href: "https://astar.network/developers/techstack",
+          },
         ],
       },
       {
@@ -242,7 +242,10 @@ const menus = [
       {
         label: "",
         nav: [
-          { label: "Community Hub", href: "https://astar.network/community" },
+          {
+            label: "Community Hub",
+            href: "https://astar.network/community",
+          },
           {
             label: "Ecosystem",
             href: "https://astar.network/community/ecosystem",
@@ -275,12 +278,18 @@ const menus = [
       {
         label: "",
         nav: [
-          { label: "2023 Starmap", href: "https://astar.network/starmap" },
-          { label: "Astar Japan Lab", href: "https://astar.network/japan" },
-          // {
-          //   label: "Jobs",
-          //   href: "https://wellfound.com/company/astar-network",
-          // },
+          {
+            label: "2023 Starmap",
+            href: "https://astar.network/starmap",
+          },
+          {
+            label: "Astar Japan Lab",
+            href: "https://astar.network/japan",
+          },
+          {
+            label: "Careers",
+            href: "https://wellfound.com/company/astar-network",
+          },
           { label: "Contact Us", href: "https://astar.network/contact" },
         ],
       },

@@ -33,13 +33,13 @@ const Telegram = resolveComponent("IconTelegram");
 const links = [
   {
     name: "Twitter",
-    href: "https://twitter.com/astarNetwork",
+    href: "https://twitter.com/AstarNetwork_KR",
     icon: Twitter,
     color: "text-[#1DA1F2]",
   },
   {
     name: "Telegram",
-    href: "https://t.me/PlasmOfficial",
+    href: "https://t.me/astar_kr",
     icon: Telegram,
     color: "text-[#0088CC]",
   },
