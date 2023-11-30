@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "nuxt-simple-sitemap",
     "nuxt-schema-org",
+    "@nuxtjs/apollo",
   ],
   schemaOrg: {
     host: "https://ko.astar.network",
@@ -29,5 +30,12 @@ export default defineNuxtConfig({
   sitemap: {
     siteUrl: "https://ko.astar.network",
     discoverImages: false,
+  },
+  apollo: {
+    clients: {
+      subsocial: {
+        httpEndpoint: "https://squid.subsquid.io/subsocial/graphql",
+      },
+    },
   },
 });

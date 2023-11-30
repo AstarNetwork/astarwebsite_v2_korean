@@ -2,7 +2,7 @@
   "meta": {
     "tagline": "The Future of Multichain Smart Contracts",
     "description": "Japan's most popular smart contract platform supporting both EVM and WebAssembly (Wasm) environments, and the tools and languages developers already know.",
-    "twitter": "AstarNetwork"
+    "twitter": "AstarNetwork_KR"
   },
   "learn_more": "Learn more",
   "footer": {
@@ -12,6 +12,7 @@
     "careers": "Careers",
     "learn": "Learn",
     "blog": "Astar Blog",
+    "press": "Press Release",
     "videos": "Videos",
     "forum": "Forum",
     "other": "Other",
@@ -19,5 +20,18 @@
     "privacy_policy": "Privacy Policy",
     "terms_of_use": "Terms of Use",
     "contact": "Contact Us"
+  },
+  "blog": {
+    "title": "에스타 블로그",
+    "description": "아스타 네트워크에 관한 최신 포스트, 주요 뉴스, 생태계 발표, 엔지니어링 업데이트 등",
+    "latest": "최신 게시물",
+    "tag": "태그",
+    "related": "관련 게시물",
+    "no_articles": "기사가 없습니다",
+    "back": "에스타 블로그로 돌아가기"
+  },
+  "press":{
+    "title": "보도 자료",
+    "description": "아스타 네트워크에서 발표한 프레스 릴리스 목록을 게시하고 있습니다"
   }
 }

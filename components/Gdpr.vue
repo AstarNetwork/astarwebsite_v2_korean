@@ -30,8 +30,6 @@
 </template>
 
 <script setup lang="ts">
-const localePath = useLocalePath();
-
 const gdpr_accept = ref(true);
 
 if (typeof window !== "undefined") {

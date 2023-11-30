@@ -24,7 +24,7 @@
             <div
               class="flex items-center justify-between px-4 py-5 sm:px-6 sm:py-8"
             >
-              <NuxtLink :to="localePath('/')" class="block">
+              <NuxtLink to="/" class="block">
                 <img
                   class="h-10 w-auto sm:h-14"
                   src="/images/common/logo.svg"
@@ -112,8 +112,6 @@
                   <ArrowTopRightOnSquareIcon class="w-5 h-5 ml-1 stroke-2" />
                 </Button>
               </div>
-
-              <div class="text-center text-lg"><LangSwitcher /></div>
             </nav>
           </div>
         </PopoverPanel>
@@ -123,8 +121,6 @@
 </template>
 
 <script setup lang="ts">
-const localePath = useLocalePath();
-
 import {
   XMarkIcon,
   Bars3Icon,

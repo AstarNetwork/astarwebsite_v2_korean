@@ -15,7 +15,7 @@
         <div
           class="mx-auto flex max-w-7xl items-center justify-between px-4 py-5 sm:px-6 sm:py-8 lg:px-8"
         >
-          <NuxtLink to="https://astar.network" target="_blank" class="flex">
+          <NuxtLink to="/" class="flex">
             <span class="sr-only">Astar Network</span>
             <img
               class="h-10 w-auto sm:h-14"
@@ -117,8 +117,6 @@
               </Button>
             </div>
           </div>
-
-          <div class="hidden lg:block"><LangSwitcher /></div>
         </div>
       </div>
     </div>
@@ -254,18 +252,17 @@ const menus = [
       },
       {
         label: "What's on",
-        nav: [{ label: "Blog", href: "https://astar.network/blog" }],
+        nav: [
+          { label: "Astar Blog", href: "/blog" },
+          { label: "Press Release", href: "/press" },
+        ],
       },
       {
         label: "Getting Involved",
         nav: [
           {
             label: "Ambassador Program",
-            href: "https://github.com/AstarNetwork/growth-program",
-          },
-          {
-            label: "Astar Space Lab",
-            href: "https://astarnetwork.notion.site/Astar-SpaceLabs-bee19d9d13ab41ba8d113347ae56448f",
+            href: "https://astarnetwork.notion.site/Astar-Space-Club-2023-5e396c75fcf34d698baf288d9aa9230f?pvs=4",
           },
           { label: "Community Forum", href: "https://forum.astar.network/" },
         ],
