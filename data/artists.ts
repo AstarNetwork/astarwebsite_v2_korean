@@ -41,7 +41,7 @@ export const artists = [
         image: "https://i.ytimg.com/vi/W9FcYPSAXE0/maxresdefault.jpg",
         title: "[MV] Lullaby",
         description:
-          "Lullaby is a project that I proposed to singer Jung In for his graduation project. We reinterpreted a painting by Jungin's oldest, Jo Eun, and created a music video that tells the story of a boy and girl's dream adventure. Parents are like the sun and moon to their children, giving them a bright and positive outlook on a dark and scary world. The scene in the music video where Jungin and Jo Jungchi appear as the sun and moon was intended to be humorous, as it was composited from real footage. From this scene on, the suspense disappears, and just as the children are no longer afraid of the monsters but enjoy them, I hope that the viewers of the music video will finish the video with a smile on their face.",
+          "Lullaby는 가수 정인에게 제안한 졸업 프로젝트로, 정인의 맏딸 조은의 그림을 재해석하여 소년과 소녀의 꿈 모험을 담은 뮤직 비디오입니다. 부모는 아이들에게 어두운 두려운 세상에서 밝고 긍정적인 전망을 제공하는 태양과 달과 같습니다. 정인과 조정치가 태양과 달로 나타나는 뮤직 비디오의 장면은 합성되어 유머러스하게 표현되었습니다. 이후에는 긴장감이 사라지고, 아이들이 괴물을 더 이상 두려워하지 않고 즐기듯, 뮤직 비디오가 끝날 때에 시청자들이 미소를 짓길 바랍니다.",
       },
     ],
   },
@@ -131,7 +131,7 @@ export const artists = [
         href: "",
         image: "",
         title:
-          "Posu, the lovable and affectionate bunny, is brimming with charm. Posu is small, adorable, and greatly adored by animal friends. The characteristic features of Posu are its cotton candy-like art style and childlike behavior.",
+          "포수(Posu)는 사랑스럽고 매력적인 토끼입니다. 포수는 작고 사랑스럽며 동물 친구들에게 큰 사랑을 받고 있습니다. 포수의 특징은 솜사탕처럼 가벼운 아트 스타일과 어린이 같은 행동입니다.",
       },
     ],
   },
@@ -164,14 +164,7 @@ export const artists = [
       youtube: "",
       twitter: "",
     },
-    works: [
-      {
-        href: "",
-        image: "",
-        title:
-          "As an artist, this is my first venture into Artpia, and I currently do not have any representative works.",
-      },
-    ],
+    works: [],
   },
   {
     name: "약과 (Yakgua)",
