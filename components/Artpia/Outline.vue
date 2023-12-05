@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-3xl mx-auto">
     <h2 class="text-center text-3xl sm:text-4xl font-bold mb-6">
-      잠재력있는 한국 시장을 향해
+      잠재력 있는 한국 시장을 향해
     </h2>
     <p class="sm:text-lg sm:leading-loose">
       아스타 네트워크는 한국에서 처음으로 방영된 세계 최초 디지털 아트 TV 쇼의
