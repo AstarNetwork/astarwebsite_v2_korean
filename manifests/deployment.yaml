@@ -16,6 +16,7 @@ spec:
       containers:
       - name: korean
         image: 6410l998.c1.gra9.container-registry.ovh.net/webapp/korean:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 3000
       imagePullSecrets:
