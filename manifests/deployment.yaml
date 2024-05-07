@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: korean-deployment
+  namespace: webapp
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: korean
+  template:
+    metadata:
+      labels:
+        app: korean
+    spec:
+      containers:
+      - name: korean
+        image: 6410l998.c1.gra9.container-registry.ovh.net/webapp/korean:latest
+        ports:
+        - containerPort: 3000
+      imagePullSecrets:
+      - name: ovh-webapp-registry
